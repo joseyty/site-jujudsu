@@ -1,0 +1,91 @@
+img{
+  width: 300px;
+  border-radius: 20px;
+}
+h1{
+  text-align: start;
+}
+h2{
+  text-align: start;
+}
+button{
+  border-radius: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.795);
+  font-family: "Meddon", cursive;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+body{
+  background-color:rgb(0, 0, 0) ;
+  font-family:"Odor Mean Chey", serif ;
+  color: rgb(119, 17, 17);
+}
+.odor-mean chey-regular {
+  font-family: "Odor Mean Chey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.meddon-regular {
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animado{
+  width: 700px;
+  height: 200px;
+}
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}

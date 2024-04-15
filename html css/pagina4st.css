@@ -1,0 +1,114 @@
+ .h1{
+    color: rgb(255, 0, 0);
+    
+ }
+
+ body{
+    background-color: rgb(24, 23, 23);
+ }
+
+
+
+.tick{
+    color: crimson;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.zig{
+    color: darkred;
+}
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .odor-mean chey-regular {
+    font-family: "Odor Mean Chey", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .meddon-regular {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .animado{
+    width: 700px;
+    height: 200px;
+  }
+  .wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 30pc;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+    border-radius: 30pc;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+
+  .dong{
+    color: #ff003b;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p{
+    font-size: 200%;
+  }
+  .dagon{
+    border-radius: 30pc;
+  }
+  
+ 
+  audio{
+  color: #ff003b;
+  }
