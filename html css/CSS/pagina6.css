@@ -1,0 +1,64 @@
+.card{
+    border-radius: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 10%;
+    box-shadow: rgba(150, 0, 0, 0.575) 0px 54px 55px, rgba(0, 233, 250, 0.12) 0px -12px 30px, rgba(117, 1, 1, 0.486) 0px 4px 6px, rgba(17, 16, 16, 0.425) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 300px;
+    height: 200px;
+
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.secretroom{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.card2{
+    border-radius: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 10%;
+    box-shadow: rgba(255, 136, 0, 0.575) 0px 54px 55px, rgba(0, 0, 0, 0.363) 0px -12px 30px, rgba(117, 1, 1, 0.486) 0px 4px 6px, rgba(17, 16, 16, 0.425) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 300px;
+    height: 200px;
+    margin-left: 40%;
+    margin-bottom: 50%;
+}
+
+.conteiner2{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.secretroom2{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: crimson;
+    margin-left:45%;
+    margin-right: 45%;
+    font-size: 100px;
+
+}
+
+p{
+    color: crimson;
+    margin-left:45%;
+    margin-right: 45%;
+   
+}

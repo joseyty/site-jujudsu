@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+span.carregando{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: 12px solid rgb(77, 220, 20);
+    border-top: 12px solid transparent;
+    border-radius: 50%;
+
+    animation: Loading 1s linear infinite ;
+    margin-left: 315px;
+    margin-bottom: 200px;
+     
+}
+
+@keyframes Loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+img{
+    width: 700px;
+}
+
+.mirck{
+    color: chartreuse;
+}
+
+a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 30px;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: hwb(86 0% 0%);
+    transition: all .35s;
+    border-radius: 30pc;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+

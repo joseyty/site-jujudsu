@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(136, 62, 8);
+}
+
+h1{
+    color: chartreuse;
+    margin-right:center;
+    margin-left: center;
+  font-size: 300%;
+    text-align: center;
+
+}
+
+video{
+    width: 50%;
+    border-radius: 20%;
+
+}
+
+
+p{
+    color: chartreuse; 
+    font-size: 200%;
+    
+}
+
+h2{
+   color:  chartreuse; 
+}
+
+.apple{
+    width: 10%;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+
+
+

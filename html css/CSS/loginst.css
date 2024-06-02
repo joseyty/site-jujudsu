@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+}
+
+.main-login{
+    width: 100wd;
+    height: 100vh;
+    background: dimgray;
+    display: flex;
+    justify-content: center;
+    
+}
