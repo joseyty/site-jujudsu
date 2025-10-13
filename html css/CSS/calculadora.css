@@ -16,10 +16,44 @@ body{
 
 .calculadora-container{
 
-    background-color: black;
+    background-color: rgb(150, 4, 163);
     padding: 24px 12px 12px;
     border-radius: 12px;
 
 }
 
-.screen-display{}
+
+
+
+.calculadora-buttons{
+    border-spacing: 6px;
+}
+.screen-display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:#fff;
+    font-size: 20px;
+    height: 34px;
+    margin: 0  6px;
+    padding-right: 6px;
+}
+
+td{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: rgb(255, 0, 170);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: background 0.2s;
+    
+}
+
+td:hover{
+
+    background: rgba(255, 255, 255, 0.15);
+}
