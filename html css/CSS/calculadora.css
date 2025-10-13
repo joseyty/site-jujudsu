@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:linear-gradient( to bottom, #5de15d,#025902 );
+ 
+}
+
+.calculadora-container{
+
+    background-color: black;
+    padding: 24px 12px 12px;
+    border-radius: 12px;
+
+}
+
+.screen-display{}
